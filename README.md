@@ -6,7 +6,7 @@ The Commonwealth of Pennsylvania, in collaboration with PSU, provides open acces
 To address this issue, I have developed a script tool to automate the downloading of LiDAR files and LiDAR-derived products, including LAS, DEMs, and XYZ files, hosted on PASDA. PASDA offers different LiDAR coverages and product types for different years. The script tool prompts the user to select the appropriate coverage layer and product type, and then downloads all the LiDAR or product tiles in the current extent or those intersecting with a selected layer.
 
 ### Test scenario
-Feel free to test the tool in any reasonable way, but below there are summarized steps to test all the tool features.
+
 1)	Download and unpack the flies from GitHUB, note the folder location.
 2)	Open ArcGIS Pro and create a new project, add Allegheny.shp from the sub-folder “test shp” to a new map, zoom to the layer
 3)	Switch to ArcGIS Pro Catalog view, navigate to the folder where you’ve unpacked the files at step 1, double click \toolbox\PASDALidarDownloader.tbx toolbox and then PASDA LiDAR Downloader tool.
