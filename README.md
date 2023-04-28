@@ -1,9 +1,15 @@
-# pasda-lidar-downloader
-PASDA LiDAR downloader for ArcGIS Pro: A script tool automates downloading LiDAR files and products from PASDA for easier access by end-users.
+# PASDA LiDAR Downloader for ArcGIS Pro
 
-The Commonwealth of Pennsylvania, in collaboration with PSU, provides open access to GIS data for end-users. However, the current official method of downloading files from PASDA at a specific geographic location involves using a web map and manually clicking on links from map pop-ups, which can be inconvenient and impractical for downloading a large number of files.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-To address this issue, I have developed a script tool to automate the downloading of LiDAR files and LiDAR-derived products, including LAS, DEMs, and XYZ files, hosted on PASDA. PASDA offers different LiDAR coverages and product types for different years. The script tool prompts the user to select the appropriate coverage layer and product type, and then downloads all the LiDAR or product tiles in the current extent or those intersecting with a selected layer.
+PASDA LiDAR Downloader is a script tool designed to automate the downloading of LiDAR files and products from the Pennsylvania Spatial Data Access (PASDA) portal for easier access by end-users. The script tool allows users to select the appropriate coverage layer and product type, and then downloads all the LiDAR or product tiles in the current extent or those intersecting with a selected layer.
+
+## Features
+
+- Automates downloading of LiDAR files and LiDAR-derived products
+- Supports LAS, DEMs, and XYZ files
+- Compatible with different LiDAR coverages and product types for different years
+- Enables users to download files based on the current extent or a selected layer
 
 ### Test scenario
 
